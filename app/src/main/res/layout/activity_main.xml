@@ -41,6 +41,18 @@
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/immagine" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="240dp"
+        android:text="Inserisci camera"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/testo2"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/testo2"
         android:layout_width="wrap_content"
@@ -52,6 +64,18 @@
         android:textColor="#7A7777"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/testo" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="284dp"
+        android:text="Inserisci impostazioni"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/testo3"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/testo3"
         android:layout_width="wrap_content"
